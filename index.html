@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Mi hoja de vida</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Alfredo Alejandro Peña Lopez" />
+  <meta name="description" content="Mi hoja de vida ó curriculum vitae" />
+  <meta name="keywords" content="tecnología, work, trabajo, developer web" />
+
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="apple-touch-icon" href="icon.png" />
+  <!-- Place favicon.ico in the root directory -->
+
+  <!--CSS de Bootstrap 4.2.1-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+
+  <!--Google Fonts-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=B612:wght@400;700&Montserrat:wght@100;200;300&family=Poiret+One&family=Raleway:wght@500;700;900&display=swap"
+    rel="stylesheet" />
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+
+  <!--CSS-->
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/progresscircle.css" />
+
+  <meta name="theme-color" content="#fafafa" />
+</head>
+
+<body>
+  <header class="hero centrado">
+    <div class="container-fluid hero-text">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-8">
+          <h1 class="display-4 font-weight-bold m-0">
+            sobre mi
+          </h1>
+          <div class="text-white mt-2 mx-3">
+            <p>
+              Licenciado en el campo Informático cón conocimientos pedagógicos, diseño de
+              páginas web y diseño digital. Tengo interés de aprender constantemente en el área o en cualquier ámbito, de
+              manera que pueda fortalecer y desarrollar mis conocimientos y competencias. Participe del trabajo en
+              equipo, comunicación, atención, constancia y perseverancia.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+  <section class="information container-fluid">
+    <div class="row">
+      <div class="col-4 profile p-5">
+        <div class="profile-img text-center">
+          <img src="assets/img/perfil.jpg" alt="mi foto" />
+        </div>
+        <div class="info-profile pt-4">
+          <h3>Información Personal</h3>
+          <p><span>nombre:</span>alfredo peña</p>
+          <p><span>fecha:</span>02-07-1991</p>
+          <p><span>nacionalidad:</span>Venezolana</p>
+        </div>
+        <div class="info-contact pt-4">
+          <h3>Información Personal</h3>
+          <p><span><i class="fas fa-mobile"></i></span> <a href="tel:+56972642358">+56972642358</a></p>
+          <p><span><i class="fas fa-envelope"></i></span>
+            <a href="mailto:aalfredoplz@gmail.com">aalfredoplz@gmail.com</a></p>
+          <p><span><i class="fab fa-linkedin"></i></span> <a
+              href="https://www.linkedin.com/in/alfredo-alejandro-pe%C3%B1a-lopez-4b187ba9/" target="_black">Alfredo
+              Peña</a></p>
+          <p><span><i class="fas fa-map-marker-alt"></i></span>Montau 1509. Independecia</p>
+
+        </div>
+
+        <!--end info-contacto-->
+        <div class="info-language pt-4">
+          <h3>Idioma</h3>
+
+          <p><span>español:</span>nativo</p>
+          <div class="progress mb-2">
+            <div id="barra" class="progress-bar w-100" role="progressbar" aria-valuenow=75" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+          <p><span>ingles:</span>intermedio</p>
+          <div class="progress">
+            <div class="progress-bar w-50" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+        <!--end info-language-->
+        <div class="info-reference pt-4">
+          <h3>Referencias</h3>
+          <h5>Lic. Psicología</h5>
+          <p><span>nombre:</span>Hemilyx Arroyo</p>
+          <p><span><i class="fas fa-mobile"></i></span> <a href="tel:+56954817975">+56954817975</a></p>
+          <p><span><i class="fas fa-envelope"></i></span>
+            <a href="mailto:hemilyx8@gmail.com">hemilyx8@gmail.com</a></p>
+        <br>
+        <h5>Ing. Informática</h5>
+          <p><span>nombre:</span>Gipsy Martinez</p>
+          <p><span><i class="fas fa-mobile"></i></span> <a href="tel:+56952460805">+56952460805</a></p>
+          <p><span><i class="fas fa-envelope"></i></span>
+            <a href="mailto:hemilyx8@gmail.com">gipsy.martinez8@gmail.com</a></p>
+
+        </div>
+      </div>
+      <div class="col-8 bg-black">
+
+        <div class="my-skill">
+          <h2 class="text-left pt-4"><span>H</span>abilidades</h2>
+          <div class="row text-white">
+            <div class="col-12 text-white rounded">
+              <div class="carousel slide" data-ride="carousel" data-interval="false" id="skillCarousel">
+                <ol class="carousel-indicators top-2">
+                  <li data-target="#skillCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#skillCarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner text-center">
+                  <div class="carousel-item active">
+                    <div class="row item-skill">
+                      <div class="col-4">
+                        <div class="circlechart" data-percentage="95"> HTML5</div>
+                      </div>
+                      <div class="col-4">
+                        <div class="circlechart" data-percentage="90">CSS3</div>
+                      </div>
+                      <div class="col-4">
+                        <div class="circlechart" data-percentage="85">JS</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row item-skill">
+                      <div class="col-4">
+                        <div class="circlechart" data-percentage="80">BOOTSTRAP</div>
+                      </div>
+                      <div class="col-4">
+                        <div class="circlechart" data-percentage="70">JQUERY</div>
+                      </div>
+                      <div class="col-4">
+                        <div class="circlechart" data-percentage="70">PHP</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end my-skill carrousel inner-->
+              </div>
+              <!--end my-skill carrousel -->
+            </div>
+            <!--end my-skill col12-->
+
+          </div>
+          <!--end my-skill row-->
+        </div>
+        <!--end my-skill-->
+        <div class="work">
+          <h2 class="text-left pt-4"><span>T</span>rabajos</h2>
+          <div class="row text-white">
+            <div class="col-4">
+              <div class="line-work">
+                <div class="time">
+                  <a href="#">2017</a>
+                </div>
+                <div class="time">
+                  <a href="#">2018</a>
+                </div>
+              </div>
+
+            </div>
+            <!--end work row col4-->
+            <div class="col-8">
+              <div class="item-work">
+                <h3>DISEÑO Y PUBLICIDAD LAEC</h3>
+                <h4>DESARROLLADOR WEB Y DISEÑADOR GRAFICO</h4>
+                <h5>Barquisimeto - Lara . Venezuela</h5>
+                <p>
+                  Diseños publicitarios Photoshop e illustrator para distintas piezas gráficas, modificaciones y
+                  mantención de páginas web en WordPress, también en HTML, CSS, JS, Bootstrap.
+                </p>
+              </div>
+              <div class="item-work">
+                <h3>ALTAMAREA DIGITAL SPA</h3>
+                <h4>DESARROLLADOR WEB Y ANALISTA MARKETING DIGITAL</h4>
+                <h5>Santiago - Región Metropolitana. Chile</h5>
+                <p>
+                  Desarrollo, diseños y mantención de paginas Web, utilizando herramientas como WordPress y framework
+                  Bootstrap.
+                </p>
+              </div>
+
+            </div>
+            <!--end work row col8-->
+          </div>
+          <!--end work row-->
+        </div>
+        <!--end work-->
+        <div class="education">
+          <h2 class="text-left "><span>F</span>ormación</h2>
+          <div class="row education-row text-white">
+            <div class="col-4">
+              <div class="line-education">
+                <div class="time">
+                  <a href="#">2009 - 2016</a>
+                </div>
+              </div>
+            </div>
+            <!--end work row col4-->
+            <div class="col-8">
+              <div class="item-education">
+                <h3>“UNIVERSIDAD PEDAGOGICA EXPERIMENTAL IBERTADORES”</h3>
+                <h3>UPEL – IPB</h3>
+                <h4>PROFESOR MENCIÓN LICENCIADO EN INFORMÁTICA</h4>
+                <h5>Barquisimeto (Venezuela) Periodo 2009 - 2016</h5>
+              </div>
+            </div>
+            <!--end education row col8-->
+          </div>
+          <!--end education row-->
+          <div class="row course">
+            <div class="col-12 text-white rounded">
+              <div class="carousel slide" data-ride="carousel" data-interval="false" id="formationCarousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#formationCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#formationCarousel" data-slide-to="1"></li>
+                  <li data-target="#formationCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner text-center">
+                  <div class="carousel-item active">
+                    <div class="row item-course">
+                      <div class="col-6">
+                        <h3>DESARROLLO WEB</h3>
+                        <h4>HTML5,CSS3,JS,AJAX,PHP Y MYSQL</h4>
+                        <h4>Udemy</h4>
+                      </div>
+                      <div class="col-6">
+                        <h3>PROGRAMACIÓN BÁSICA</h3>
+                        <h4>Plazi</h4>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row item-course">
+                      <div class="col-6">
+                        <h3>METODOLOGIA SCRUM</h3>
+                        <h4>LinkedIn</h4>
+                      </div>
+                      <div class="col-6">
+                        <h3>FUNDAMENTOS DEL DESARROLLO WEB</h3>
+                        <h4>LinkedIn</h4>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row item-course">
+                      <div class="col-6">
+                        <h3>GOOGLE ANALYTICS PARA PRINCIPIANTES</h3>
+                        <h4>Google Analytics for Business</h4>
+                      </div>
+                      <div class="col-6">
+                        <h3>CERTIFICACIÓN DE DISPLAY DE GOOGLE ADS</h3>
+                        <h4>Google Ads</h4>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <!--end formationCarousel carrousel inner-->
+              </div>
+              <!--end formationCarousel carrousel -->
+            </div>
+            <!--end formationCarousel col12-->
+          </div>
+        </div>
+        <!--end education-->
+        <div class="hobbies">
+          <div class="row">
+            <h2 class="text-left pt-4"><span>H</span>obbies</h2>
+            <div class="col-12 text-white rounded">
+              <div class="carousel slide" data-ride="carousel" data-interval="false" id="aboutCarousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#aboutCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#aboutCarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner text-center">
+                  <div class="carousel-item active">
+                    <div class="row item-about">
+                      <div class="col-4">
+                        <i class="fas fa-gamepad" data-container="body" data-toggle="popover" data-trigger="hover"
+                          data-placement="bottom" data-content="Juegos"></i>
+                      </div>
+                      <div class="col-4">
+                        <i class="fas fa-guitar" data-container="body" data-toggle="popover" data-trigger="hover"
+                          data-placement="bottom" data-content="Guitarra"></i>
+                      </div>
+                      <div class="col-4">
+                        <i class="fas fa-dumbbell" data-container="body" data-toggle="popover" data-trigger="hover"
+                          data-placement="bottom" data-content="Escuchar música"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row item-about">
+                      <div class="col-4">
+                        <i class="fas fa-running" data-container="body" data-toggle="popover" data-trigger="hover"
+                          data-placement="bottom" data-content="Trotar"></i>
+                      </div>
+                      <div class="col-4">
+                        <i class="fas fa-palette" data-container="body" data-toggle="popover" data-trigger="hover"
+                          data-placement="bottom" data-content="Dibujar"></i>
+                      </div>
+                      <div class="col-4">
+                        <i class="fas fa-map-marked-alt" data-container="body" data-toggle="popover"
+                          data-trigger="hover" data-placement="bottom" data-content="Viajar"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end hobbies carrousel inner-->
+              </div>
+              <!--end hobbies carrousel -->
+            </div>
+            <!--end hobbies col12-->
+          </div>
+          <!--end hobbies row-->
+        </div>
+        <!--end hobbies me-->
+      </div>
+      <!--end information col8-->
+    </div>
+    <!--end information row-->
+  </section>
+  <!--end information section-->
+  <footer class="text-center text-light py-3">
+    <p>Alfredo Peña 2020.© Todos los derechos reservados.</p>
+  </footer>
+  <!--jQuery 3.4.1 sin slim-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!--Popper JS 1.14.3-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+
+  <!--Bootstrap JS 4.2.1-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+  <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+  <script>
+    window.jQuery ||
+      document.write(
+        '<script src="assets/js/vendor/jquery-3.4.1.min.js"><\/script>'
+      );
+  </script>
+  <script src="assets/js/progresscircle.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

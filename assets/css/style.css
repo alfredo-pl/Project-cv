@@ -1,0 +1,221 @@
+/*MIS ESTILOS*/
+:root{
+  --c-primary: #d8bf25;
+  --c-secundary:#313131;
+  --c-third:#808080;
+  --f-primary:'Montserrat Medium',sans-serif;
+  --f-secundary:'Poiret One',sans-serif;
+}
+.hero{
+background-color: #1F1F1F;
+height: 35vh;
+}
+
+.centrado{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-text{
+  z-index: 1;
+  position: absolute;
+  color: #d8bf25;
+}
+.hero-text h1{
+  font-family: 'Montserrat Medium',sans-serif;
+  text-transform: uppercase;
+  color: #282828;
+  font-size: 90px;
+  bottom: 30px;
+  left: -30px;
+ position: absolute;
+ z-index: -1;
+}
+
+.hero-text p{
+  font-family: 'Poiret One',sans-serif;
+z-index: 1;
+}
+
+.line-decoration{
+  width: 120px;
+  height: 1px;
+  background-color: #d8bf25;
+  text-align: center;
+}
+
+/*PROFILE*/
+
+.profile{
+background-color: #D8BF25;
+}
+.profile-img{
+  height: 420px;
+}
+.profile-img img{
+  width: 90%;
+  height: 650px;
+  object-fit: cover;
+  position: relative;
+  bottom: 260px;
+}
+
+.info-profile h3, .info-contact h3, .info-language h3, .info-reference h3, .info-reference h5{
+  font-family: var(--f-primary);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.info-profile p , .info-contact p ,.info-reference p{
+  font-family: var(--f-primary);
+  text-transform: capitalize;
+  border-bottom: 1px solid #0000001c;
+  padding-bottom: 3px;
+}
+
+.info-language p{
+  font-family: var(--f-primary);
+  text-transform: capitalize;
+
+}
+.info-language p:last-of-type{
+  border-top: 1px solid #0000001c;
+}
+.info-contact p a, .info-reference p a{
+color: #000000;
+}
+
+.info-profile p span, .info-contact p span,
+.info-language p span, .info-reference p span{
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-right: 5px;
+}
+
+.progress-bar{
+background-color: #000000;
+}
+
+/*ABOUT ME*/
+.hobbies h2 span, .my-skill h2 span,
+.work h2 span , .education h2 span{
+  color: black;
+  font-weight: bold;
+}
+.hobbies h2, .my-skill h2,
+.work h2, .education h2{
+  color: var(--c-primary);
+  text-transform: uppercase;
+  font-family: var(--f-primary);
+}
+.bg-black{
+  background-color: var(--c-secundary);
+}
+.bg-yellow{
+  background-color:var(--c-primary);
+}
+
+.item-about,.item-skill{
+  margin: 35px 10px;
+}
+.item-about i{
+  font-size: 35px;
+}
+/*SKILL*/
+
+.circlechart .success-stroke{
+  stroke:var(--c-primary)!important;
+}
+.color{
+  color: var(--c-primary);
+}
+
+/*CAROUSEL*/
+.carousel-indicators {
+  top: 120px;
+
+}
+.top-2{
+  top: 250px!important;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black
+}
+.carousel-indicators .active {
+
+  background-color: var(--c-primary);
+}
+/*transicion lenta del carousel*/
+.carousel-item{
+  transition: transform 3s ease;
+   opacity: .5s ease-out;
+}
+
+#formationCarousel ol{
+  top: 170px;
+}
+
+/*WORKS*/
+
+/*LINE WORK*/
+.line-work, .line-education{
+  display: flex;
+ flex-direction: column;
+ justify-content:space-around;
+ height: 100%;
+ text-align: center;
+}
+.time{
+  background-color: var(--c-primary);
+  border-radius: 5px;
+  height:60px;
+  width: 100px;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.time a{
+  margin: 0 auto;
+  color: #000000;
+  font-family: var(--f-primary);
+  font-size: 15px;
+}
+.item-work:first-child{
+margin-bottom: 30px;
+}
+.item-work, .item-education , .item-course{
+  font-family: var(--f-primary);
+}
+
+.item-work h3, .item-education h3, .item-course h3{
+color: var(--c-primary);
+}
+.item-work p{
+  color: #C0C0C0;
+}
+/*EDUCATION*/
+.education-row{
+  margin: 30px 0px;
+}
+
+/*COURSE*/
+.hobbies, .my-skill,.education,.work{
+  margin: 20px 30px 40px 30px;
+}
+.course{
+  margin: 20px 0px;
+}
+/*HOBBIES*/
+.hobbies{
+  padding: 30px 0px;
+}
+
+/*footer*/
+
+footer{
+  background-color: #000000;
+}
